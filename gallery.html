@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!-- lisää googlefontti -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="otdot" />
+    <title>Portfolio</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./static/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/200484ca2d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="#top">
+      <section id="nav_content">
+        <div>
+          <a href="./index.html"
+            ><img id="navIcon" src="./static/favicon-196x196.png"
+          /></a>
+          <a href="./index.html"><h2>tto Mursula</h2></a>
+        </div>
+        <nav>
+          <span id="hamburgerMenu" class="material-icons"> menu </span>
+          <ul class="navMenu">
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="./index.html#about">About me</a></li>
+            <li><a href="./index.html#skills">Skills</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./index.html#BC">More about BC</a></li>
+          </ul>
+        </nav>
+      </section>
+      <div class="main_header">
+        <h1 id="main_heading">PORTFOLIO</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+          <div class="pics a"></div>
+          <div class="pics b"></div>
+          <div class="pics c"></div>
+          <div class="pics d"></div>
+          <div class="pics e"></div>
+          <div class="pics f"></div>
+          <div class="chover1"></div>
+          <div class="chover2"></div>
+        </div>
+      </div>
+    </main>
+    <footer href="#top">
+      <form class="contactForm" id="contactForm">
+        <h2>Contact me</h2>
+        <div>
+          <div>
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" />
+          </div>
+          <div>
+            <label for="last_name">Last name</label>
+            <input type="text" id="last_name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Contact description</label>
+            <textarea name="" id="message" cols="" rows=""></textarea>
+          </div>
+          <button id="contactForm__button" type="submit">
+            <span class="material-icons"> send </span>
+          </button>
+        </div>
+      </form>
+      <div class="socialmedias" id="socialmedias">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <p>Otto Mursula 2022</p>
+      <button id="toTopButton">
+        <span class="material-icons"> arrow_upward </span>
+      </button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
