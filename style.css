@@ -26,7 +26,6 @@ html {
 /* navbar */
 
 header {
-  display: relative;
   height: 95vh;
 }
 
@@ -51,7 +50,6 @@ header:hover:before {
   background: url("https://c.tenor.com/XNBmVkdwkIAAAAAC/wink-wow.gif") no-repeat;
   position: relative;
   top: 10rem;
-  left: 10rem;
   height: 10rem;
   width: 15rem;
   opacity: 0;
@@ -684,5 +682,11 @@ footer a {
   .main_header h1 {
     font-family: var(--header-font);
     letter-spacing: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_header {
+    font-size: 1rem;
   }
 }
