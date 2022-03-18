@@ -46,22 +46,6 @@ header:hover:before {
   transition-timing-function: ease;
 }
 
-.wowsurprise {
-  background: url("https://c.tenor.com/XNBmVkdwkIAAAAAC/wink-wow.gif") no-repeat;
-  position: relative;
-  top: 10rem;
-  height: 10rem;
-  width: 15rem;
-  opacity: 0;
-  z-index: 2;
-  border-radius: 5px;
-}
-
-.wowsurprise:hover {
-  animation: showWow 1.5s linear 0s 1;
-  transition-timing-function: ease;
-}
-
 @keyframes showWow {
   from {
     opacity: 0.1;
